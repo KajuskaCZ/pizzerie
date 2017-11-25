@@ -85,8 +85,13 @@ header .bg > div {
 	font-size: smaller;
 }
 
+.container tr:nth-child(odd) td {
+    padding-top: 8px;
+}
+
 .container tr:nth-child(even) td {
-    padding-top: 15px;
+    border-bottom: dashed 1px gray;
+    padding-bottom: 8px;
 }
 
 .container table {
