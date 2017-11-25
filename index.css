@@ -1,0 +1,96 @@
+section div,
+header .bg > div {
+  padding: 3rem 1rem;
+  max-width: 100%;
+}
+
+nav a {
+  padding: 2rem 3rem;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial, Verdana, sans-serif;
+  border-right: 1px solid #702302;
+  border-left: 1px solid #702302;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+nav {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #551A00;
+}
+
+nav a:hover,
+nav a:active,
+nav a:focus {
+  background-color: #D48B6A;
+}
+
+section:nth-child(odd) {
+  box-shadow: gray 0px 6px 20px;
+}
+
+header .bg {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/f/f0/Pepperoni_pizza_with_basil.jpg") center center;
+}
+
+header .bg > div {
+  min-height: 200px;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.pozadi {
+  padding: 2em;
+  background-color: RGBA(128, 54, 21, 0.7);
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.6);
+}
+
+.pozadi h1,
+.pozadi p {
+  margin: 0;
+  color: white;
+  padding: 0;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 60rem;
+    margin: 0 auto;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.container h1 {
+	text-transform: uppercase;
+	color: #551A00;
+}
+
+.container h2 {
+	text-transform: uppercase;
+	color: #551A00;
+	text-decoration: underline;
+	font-size: smaller;
+}
+
+.container h3 {
+	text-transform: uppercase;
+	color: #551A00;
+	font-style: italic;
+	font-size: smaller;
+}
+
+body {
+    margin: 0;
+}
+
+footer {
+  padding: 1rem 1rem;
+  font-family: Arial, Verdana, sans-serif
+}
